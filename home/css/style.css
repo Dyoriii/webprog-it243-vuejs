@@ -1,11 +1,4 @@
-    #app {
-      display: inline-block;
-      padding: 10px;
-      font-size: x-large;
-      background-color: rgb(185, 144, 238);
-    }
 
-    /* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -126,3 +119,10 @@ body {
   background: #222;
   border-left: 4px solid #ff7a00;
 }
+
+#app {
+      display: inline-block;
+      padding: 10px;
+      font-size: x-large;
+      background-color: rgb(185, 144, 238);
+    }
