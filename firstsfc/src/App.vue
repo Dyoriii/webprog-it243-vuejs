@@ -6,7 +6,7 @@
 export default {
   data() {
     return {
-      message: 'Hola I am Kwon!'
+      message: 'Hola I am Hyuk Kwon! He's Edited from Github.dev'
     };
   }
 };
