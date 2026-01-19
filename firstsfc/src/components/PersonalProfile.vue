@@ -1,104 +1,106 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My first Vue page</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/images.css">
-</head>
-<body>
 
-<h1>Vue Example</h1>
+<template>
+  <html>
+  <head>
+    <title>My first Vue page</title>
+    css/style.css
+    css/images.css
+  </head>
+  <body>
 
-  <div class="container">
-    <!-- Decorative triangles -->
-    <div class="triangle-decoration triangle-1"></div>
-    <div class="triangle-decoration triangle-2"></div>
+    <h1>Vue Example</h1>
 
-    <!-- LEFT: PROFILE -->
-    <div class="profile">
-      <h1>My Profile</h1>
+    <div class="container">
+      <!-- Decorative triangles -->
+      <div class="triangle-decoration triangle-1"></div>
+      <div class="triangle-decoration triangle-2"></div>
 
-      <div class="profile-img">
-        <img src="https://i.pinimg.com/736x/c0/8f/0c/c08f0cfd48cfc651d61daec38e8c74ea.jpg" alt="Profile Image">
-      </div>
+      <!-- LEFT: PROFILE -->
+      <div class="profile">
+        <h1>My Profile</h1>
 
-      <h2>Jhorie M. Ranario</h2>
-      <p><a href="#">View photos</a></p>
-
-      <div class="separator-container">
-        <img src="https://i.pinimg.com/1200x/2f/3e/f0/2f3ef0eaa0a87a8e291f62e28c8a89d7.jpg" alt="separator" class="separator">
-      </div>
-
-      <h3>About Me</h3>
-      <blockquote>
-        “I carry my past, but I don't live there.”
-      </blockquote>
-    </div>
-
-    <!-- RIGHT: DETAILS -->
-    <div class="details">
-
-      <section>
-        <h3>Education / Achievement</h3>
-        <p>San Diego Elementary School – Grade 1 – 6</p>
-        <p>Ramon Magsaysay (Cubao) High School – Grade 7 – 12</p>
-        <p>Asia Pacific College – Current</p>
-      </section>
-
-      <section>
-        <h3>Course</h3>
-        <p>BSIT</p>
-      </section>
-
-      <section>
-        <h3>IT Experience</h3>
-        <p>Outsystems, MS Apps, Java Programming, Python</p>
-      </section>
-
-      <div class="likes-hobbies">
-        <div class="likes">
-          <h4>Likes</h4>
-          <ul class="triangle-list">
-            <li>Eminence and Black Colors</li>
-            <li>Reading Windbreaker</li>
-          </ul>
+        <div class="profile-img">
+          https://i.pinimg.com/736x/c0/8f/0c/c08f0cfd48cfc651d61daec38e8c74ea.jpg
         </div>
 
-        <div class="hobbies">
-          <h4>Hobbies</h4>
-          <ul class="triangle-list">
-            <li>Playing Instruments</li>
-            <li>Playing Games</li>
-            <li>Sleeping</li>
-            <li>Cleaning</li>
-          </ul>
-        </div>
+        <h2>Jhorie M. Ranario</h2>
+        <p>#View photos</a></p>
+
+        <div class="separator-container">
+          <img src="https://i.pinimg.com/1200x/2f/3e/f0/2f3ef0eaa0a87a8e291f62e28c8a89d7.jpg/div>
+
+        <h3>About Me</h3>
+        <blockquote>
+          “I carry my past, but I don't live there.”
+        </blockquote>
       </div>
 
-      <div class="goals">
-        <strong>Goals:</strong> To graduate and fulfill my dream of traveling.
+      <!-- RIGHT: DETAILS -->
+      <div class="details">
+
+        <section>
+          <h3>Education / Achievement</h3>
+          <p>San Diego Elementary School – Grade 1 – 6</p>
+          <p>Ramon Magsaysay (Cubao) High School – Grade 7 – 12</p>
+          <p>Asia Pacific College – Current</p>
+        </section>
+
+        <section>
+          <h3>Course</h3>
+          <p>BSIT</p>
+        </section>
+
+        <section>
+          <h3>IT Experience</h3>
+          <p>Outsystems, MS Apps, Java Programming, Python</p>
+        </section>
+
+        <div class="likes-hobbies">
+          <div class="likes">
+            <h4>Likes</h4>
+            <ul class="triangle-list">
+              <li>Eminence and Black Colors</li>
+              <li>Reading Windbreaker</li>
+            </ul>
+          </div>
+
+          <div class="hobbies">
+            <h4>Hobbies</h4>
+            <ul class="triangle-list">
+              <li>Playing Instruments</li>
+              <li>Playing Games</li>
+              <li>Sleeping</li>
+              <li>Cleaning</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="goals">
+          <strong>Goals:</strong> To graduate and fulfill my dream of traveling.
+        </div>
+
+      </div>
+    </div>
+
+    <p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
+
+    <div id="app">
+      {{ message }}
+    </div>
+
+
+    <div id="app2">
+
+      <div>
+        x
       </div>
 
     </div>
-  </div>
-<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
 
-<div id="app">
-  {{ message }}
-</div>
+    <script src="https://unpkg.com/vue@3bal.js
 
-
-<div id="app2">
-
-  <div>
-    <img v-for="x in manyFoods" v-bind:src="x">
-  </div>
-
-</div>
-
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
-<script src="js/vue.js"></script>
-<script src="js/images.js"></script>
-</body>
-</html>
+    <scriptjs</script>
+    js/images.js</script>
+  </body>
+  </html>
+</template>
